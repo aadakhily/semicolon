@@ -2,12 +2,17 @@
   "name": "@semicolon/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "workspaces": [
+    "./apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "preview": "turbo preview"
+  },
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "@nx/js": "18.0.4",
-    "@nx/workspace": "18.0.4",
-    "nx": "18.0.4"
+  "dependencies": {
+    "turbo": "^1.12.4"
   }
 }
