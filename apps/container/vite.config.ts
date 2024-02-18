@@ -22,6 +22,9 @@ export default defineConfig({
     port: 3000,
     cors: false,
   },
+  preview: {
+    port: 3000,
+  },
   build: {
     target: ["chrome89", "edge89", "firefox89", "safari15"],
   },
