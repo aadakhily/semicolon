@@ -1,0 +1,17 @@
+.home-page {
+  display: flex;
+
+  &__right-side-bar {
+    flex-basis: 25%;
+    padding-left: 1rem;
+  }
+
+  &__left-side-bar {
+    padding-right: 1rem;
+    flex-basis: 20%;
+  }
+
+  &__posts-section {
+    flex-basis: 55%;
+  }
+}

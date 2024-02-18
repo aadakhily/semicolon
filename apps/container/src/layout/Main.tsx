@@ -1,10 +1,16 @@
 import { Outlet } from "react-router-dom";
+import Header from "../components/Layout/Header/Header";
+
+import "./mainLayout.scss";
 
 function Main() {
   return (
-    <div>
-      fksdj
-      <Outlet />
+    <div className="main-layout">
+      <Header />
+
+      <main className="main-layout__page">
+        <Outlet />
+      </main>
     </div>
   );
 }

@@ -1,0 +1,70 @@
+.app-header {
+  padding: 0.625rem 7rem;
+  background-color: var(--white);
+  box-shadow: 0 1px 1px #eee;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__brand {
+    all: unset;
+    cursor: pointer;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  &__search {
+    all: unset;
+    background-color: #eee;
+    padding: 0.5rem 1rem;
+    flex-basis: 45%;
+    border-radius: 0.75rem;
+
+    &::placeholder {
+      color: #3e3e3e;
+      font-size: 1rem;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+  }
+
+  &__create-post {
+    all: unset;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 0.875rem;
+    font-size: 0.875rem;
+
+    transition: all 300ms ease;
+
+    &:hover {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+  }
+
+  &__avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+
+    overflow: hidden;
+    &-image {
+      width: inherit;
+      height: inherit;
+    }
+  }
+}
