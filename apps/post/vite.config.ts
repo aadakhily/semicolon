@@ -13,10 +13,12 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./render": "./src/renderApp.ts",
+        "./PostsList": "./src/components/PostList/PostList.vue",
       },
       shared: dependencies,
     }),
   ],
+  base: "http://localhost:3002/",
   server: {
     port: 3002,
   },
