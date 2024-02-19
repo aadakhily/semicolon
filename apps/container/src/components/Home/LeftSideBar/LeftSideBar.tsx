@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./leftSideBar.scss";
 import { Link } from "react-router-dom";
 
