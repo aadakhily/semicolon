@@ -6,10 +6,6 @@ import App from "../App/App";
 const Podcast = lazy(() => import("../pages/Podcast/Podcast"));
 const Podcasts = lazy(() => import("../pages/Podcasts/Podcasts"));
 
-// import Podcast from "../pages/Podcast/Podcast";
-
-// import Podcasts from "../pages/Podcasts/Podcasts";
-
 const routes: RouteDefinition[] = [
   {
     path: "/",
@@ -25,8 +21,6 @@ function Router({}: { baseUrl?: string }) {
   return (
     <SolidRouter root={App} base={"/podcasts"}>
       {routes}
-      {/* <Route path={"/"} component={Podcasts} />
-      <Route path={"/:podcastId"} component={Podcast} /> */}
     </SolidRouter>
   );
 }

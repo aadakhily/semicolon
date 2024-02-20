@@ -13,7 +13,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./render": "./src/renderApp.ts",
-        "./PostsList": "./src/components/PostList/PostList.vue",
+        "./PostsSection": "./src/components/PostsSection/PostsSection.vue",
       },
       shared: dependencies,
     }),

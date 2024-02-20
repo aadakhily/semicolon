@@ -35,7 +35,7 @@
       display: flex;
       align-items: flex-start;
       flex-direction: column;
-      gap: 0.55rem;
+      gap: 0.5rem;
     }
   }
 </style>

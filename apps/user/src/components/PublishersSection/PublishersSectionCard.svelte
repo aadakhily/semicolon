@@ -1,29 +1,25 @@
 <script lang="ts">
-  // import { Link } from "svelte-routing";
-
   export let publisherId: number;
 </script>
 
-<a href={`/users/${publisherId}`} class="link">
-  <div class="publisher-section-card">
-    <div class="publisher-section-card__avatar">
-      <img
-        src={`https://i.pravatar.cc/52?img=${publisherId}`}
-        class="publisher-section-card__avatar-image"
-        alt="publisher avatar"
-      />
-    </div>
-
-    <div class="publisher-section-card__info">
-      <span class="publisher-section-card__name">Amir Abbas Dakhili</span>
-      <span class="publisher-section-card__bio">Front End Developer In ...</span
-      >
-    </div>
+<div class="publisher-section-card">
+  <div class="publisher-section-card__avatar">
+    <img
+      src={`https://i.pravatar.cc/52?img=${publisherId}`}
+      class="publisher-section-card__avatar-image"
+      alt="publisher avatar"
+    />
   </div>
-</a>
+
+  <div class="publisher-section-card__info">
+    <span class="publisher-section-card__name">Amir Abbas Dakhili</span>
+    <span class="publisher-section-card__bio">Front End Developer In ...</span>
+  </div>
+</div>
 
 <style lang="scss">
   .publisher-section-card {
+    cursor: pointer;
     width: 100%;
     padding: 0.5rem;
     display: flex;
