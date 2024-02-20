@@ -14,6 +14,7 @@ export default defineConfig({
         "@semicolon/user": "http://localhost:3003/assets/remoteEntry.js",
         "@semicolon/post": "http://localhost:3002/assets/remoteEntry.js",
         "@semicolon/podcast": "http://localhost:3001/assets/remoteEntry.js",
+        "@semicolon/notification": "http://localhost:3004/remoteEntry.js",
       },
       shared: dependencies,
     }),

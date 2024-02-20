@@ -1,0 +1,32 @@
+
+> notification@0.0.0 build
+> ng build
+
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+Initial chunk files           | Names                   |  Raw size | Estimated transfer size
+polyfills.74f21745de031892.js | polyfills               |  40.68 kB |                13.27 kB
+main.08dce3a2861890c4.js      | main                    |   7.25 kB |                 2.70 kB
+remoteEntry.js                | @semicolon/notification |   6.34 kB |                 2.79 kB
+styles.ef46db3751d8e999.css   | styles                  |   0 bytes |                       -
+
+                              | Initial total           |  54.27 kB |                18.76 kB
+
+Lazy chunk files              | Names                   |  Raw size | Estimated transfer size
+712.d3327f13c79d19a0.js       | -                       | 243.55 kB |                68.50 kB
+900.273cf9d2cbe6beb7.js       | -                       | 115.64 kB |                29.05 kB
+280.65ec53e6fd388548.js       | -                       | 103.12 kB |                25.68 kB
+448.da5764c56c4f396e.js       | -                       |  64.89 kB |                16.22 kB
+828.93a585ad802a3cc6.js       | -                       |  64.89 kB |                16.22 kB
+555.8e45d7d30185f07a.js       | -                       |  44.03 kB |                12.83 kB
+936.bcc56623a31618e1.js       | -                       |  44.03 kB |                12.82 kB
+700.f82671285a5e3015.js       | -                       |  32.75 kB |                 8.78 kB
+874.a2473bc50390b97e.js       | bootstrap               |  32.69 kB |                 8.78 kB
+
+Build at: 2024-02-20T21:51:10.680Z - Hash: 24bc7dc6f08405fb - Time: 3052ms
