@@ -5,8 +5,8 @@ function LeftSideBar() {
   return (
     <div className="left-side-bar">
       <div className="left-side-bar__links">
-        <Link to={"/"} className="left-side-bar__link">
-          Home
+        <Link to={"/notifications"} className="left-side-bar__link">
+          Notifications
         </Link>
         <Link to={"/podcasts"} className="left-side-bar__link">
           Podcasts

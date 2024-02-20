@@ -7,6 +7,9 @@ const Home = lazy(() => import("../Pages/Home/Home"));
 const Posts = lazy(() => import("../Pages/Posts/Posts"));
 const Users = lazy(() => import("../Pages/Users/Users"));
 const Podcasts = lazy(() => import("../Pages/Podcasts/Podcasts"));
+const Notifications = lazy(
+  () => import("../Pages/Notifications/Notifications")
+);
 
 // import Home from "../Pages/Home/Home";
 // import Posts from "../Pages/Posts/Posts";
@@ -33,6 +36,10 @@ const routes: RouteObject[] = [
       {
         path: "users/*",
         element: <Users />,
+      },
+      {
+        path: "notifications",
+        element: <Notifications />,
       },
     ],
   },
