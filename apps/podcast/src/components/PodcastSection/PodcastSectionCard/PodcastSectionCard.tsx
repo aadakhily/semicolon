@@ -1,11 +1,10 @@
 import { Component } from "solid-js";
 import "./podcastSectionCard.scss";
-// import { A } from "@solidjs/router";
 
 const PodcastCard: Component<{ podcastId: number }> = (props) => {
   const podcastId = () => props.podcastId;
   return (
-    <a href={`/podcasts/${podcastId()}`} class="podcast-section-card">
+    <div class="podcast-section-card">
       <div class="podcast-section-card__image-container">
         <img
           class="podcast-section-card__image"
@@ -20,7 +19,7 @@ const PodcastCard: Component<{ podcastId: number }> = (props) => {
           Lorem ipsum dolor sit ...
         </div>
       </div>
-    </a>
+    </div>
   );
 };
 

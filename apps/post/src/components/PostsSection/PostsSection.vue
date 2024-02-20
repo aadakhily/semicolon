@@ -1,11 +1,11 @@
 <template>
     <div class="post-list">
-        <PostItem v-for="item in 10" :post-id="item" :key="item" />
+        <PostSectionItem v-for="item in 10" :post-id="item" :key="item" />
     </div>
 </template>
 
 <script setup lang="ts">
-import PostItem from '../PostItem/PostItem.vue'
+import PostSectionItem from './PostSectionItem/PostSectionItem.vue'
 </script>
 
 <style scoped>

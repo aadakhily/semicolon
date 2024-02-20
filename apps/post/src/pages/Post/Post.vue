@@ -1,14 +1,7 @@
-<script setup lang="ts">
-</script>
-
 <template>
     <div>
-        <h1>single post page</h1>
-        -
-        {{
-            $route.params.postId
-        }}
+      <h2>Post page '{{ $route.params.postId }}'</h2>
+
+      <h3>there is no content to display (this page not implemented)</h3>
     </div>
 </template>
-
-<style scoped></style>

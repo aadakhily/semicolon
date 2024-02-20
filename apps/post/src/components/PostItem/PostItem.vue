@@ -1,5 +1,5 @@
 <template>
-    <a :href="`/posts/${props.postId}`" class="post-item">
+    <RouterLink :to="`/${props.postId}`" class="post-item">
         <div class="post-item__header">
             <div class="post-item__publisher">
                 <div class="post-item__publisher-avatar">
@@ -27,7 +27,7 @@
                 <span class="post-item__tag">#Vue</span>
             </div>
         </div>
-    </a>
+    </RouterLink>
 </template>
 
 <script setup lang="ts">

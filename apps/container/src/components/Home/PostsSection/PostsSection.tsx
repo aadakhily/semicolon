@@ -8,16 +8,16 @@ function PostsSection() {
       //@ts-ignore
       import("@semicolon/post/render"),
       //@ts-ignore
-      import("@semicolon/post/PostsList"),
+      import("@semicolon/post/PostsSection"),
     ])
       .then((modules) => {
         const renderModule = modules[0];
-        const postListModule = modules[1];
+        const PostsSectionModule = modules[1];
 
         const renderComponent = renderModule.default.renderComponent;
-        const PostListComponent = postListModule.default;
+        const PostsSectionComponent = PostsSectionModule.default;
 
-        renderComponent(postsSectionDomNode.current, PostListComponent);
+        renderComponent(postsSectionDomNode.current, PostsSectionComponent);
       })
       .catch(console.error);
   }, []);

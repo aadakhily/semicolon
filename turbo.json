@@ -14,9 +14,7 @@
     },
     "lint": {},
     "preview": {
-      "dependsOn": ["build"],
-      "cache": false,
-      "persistent": true
+      "dependsOn": ["build"]
     },
     "dev": {
       "cache": false,

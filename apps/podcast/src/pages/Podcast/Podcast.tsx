@@ -1,21 +1,13 @@
-import { A, useParams } from "@solidjs/router";
-import PodcastSection from "../../components/PodcastSection/PodcastSection";
-import { createEffect } from "solid-js";
+import { useParams } from "@solidjs/router";
 
 function Podcast() {
   const params = useParams();
 
-  // console.log("params :>> ", abbas());
-
-  createEffect(() => {
-    console.log("abbas() :>> ", params.podcastId);
-  });
-
   return (
     <div>
-      <h1>Podcast - {params.podcastId}</h1>
-      <A href="/">All podcasts</A>
-      <PodcastSection />
+      <h2>Podcast page '{params.podcastId}'</h2>
+
+      <h3>there is no content to display (this page not implemented)</h3>
     </div>
   );
 }

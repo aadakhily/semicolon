@@ -14,9 +14,9 @@ function LeftSideBar() {
         <Link to={"/posts"} className="left-side-bar__link">
           Posts
         </Link>
-        <Link to={"/users"} className="left-side-bar__link">
+        <a href={"/users"} className="left-side-bar__link">
           Publishers
-        </Link>
+        </a>
       </div>
 
       <div className="left-side-bar__tags">
