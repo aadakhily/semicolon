@@ -4,6 +4,8 @@ import Header from "../components/Layout/Header/Header";
 import "./mainLayout.scss";
 
 function Main() {
+  // const params = useParams();
+
   return (
     <div className="main-layout">
       <Header />

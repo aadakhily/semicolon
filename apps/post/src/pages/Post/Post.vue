@@ -4,6 +4,10 @@
 <template>
     <div>
         <h1>single post page</h1>
+        -
+        {{
+            $route.params.postId
+        }}
     </div>
 </template>
 

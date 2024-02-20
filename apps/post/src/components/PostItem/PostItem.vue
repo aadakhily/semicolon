@@ -1,5 +1,5 @@
 <template>
-    <div class="post-item">
+    <a :href="`/posts/${props.postId}`" class="post-item">
         <div class="post-item__header">
             <div class="post-item__publisher">
                 <div class="post-item__publisher-avatar">
@@ -26,9 +26,8 @@
                 <span class="post-item__tag">#React</span>
                 <span class="post-item__tag">#Vue</span>
             </div>
-
         </div>
-    </div>
+    </a>
 </template>
 
 <script setup lang="ts">
