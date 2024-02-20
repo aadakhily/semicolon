@@ -14,10 +14,13 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./render": "./src/renderApp.ts",
+        "./PublishersSection":
+          "./src/components/PublishersSection/PublishersSection.svelte",
       },
       shared: dependencies,
     }),
   ],
+  base: "http://localhost:3003/",
   server: {
     port: 3003,
   },
