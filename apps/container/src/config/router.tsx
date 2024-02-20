@@ -8,6 +8,11 @@ const Posts = lazy(() => import("../Pages/Posts/Posts"));
 const Users = lazy(() => import("../Pages/Users/Users"));
 const Podcasts = lazy(() => import("../Pages/Podcasts/Podcasts"));
 
+// import Home from "../Pages/Home/Home";
+// import Posts from "../Pages/Posts/Posts";
+// import Users from "../Pages/Users/Users";
+// import Podcasts from "../Pages/Podcasts/Podcasts";
+
 const routes: RouteObject[] = [
   {
     path: "",

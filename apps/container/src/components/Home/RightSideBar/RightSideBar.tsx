@@ -1,7 +1,12 @@
+import PodcastSection from "./PodcastsSection/PodcastSection";
 import "./rightSideBar.scss";
 
 function RightSideBar() {
-  return <div>RightSideBar</div>;
+  return (
+    <div>
+      <PodcastSection />
+    </div>
+  );
 }
 
 export default RightSideBar;

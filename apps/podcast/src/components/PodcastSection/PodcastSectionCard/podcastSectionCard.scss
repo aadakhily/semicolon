@@ -1,0 +1,49 @@
+.podcast-section-card {
+  all: unset;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #eee;
+  max-width: 275px;
+  border-radius: 0.75rem;
+
+  transition: all 300ms ease;
+
+  &:hover {
+    background-color: #eee;
+  }
+
+  &__image-container {
+    height: 55px;
+    width: 55px;
+    background-color: #eee;
+    overflow: hidden;
+    border-radius: 0.75rem;
+  }
+
+  &__image {
+    width: inherit;
+    height: inherit;
+  }
+
+  &__info {
+    margin-left: 0.75rem;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  &__description {
+    font-size: 0.75rem;
+    color: #999;
+    max-width: 240px;
+  }
+}

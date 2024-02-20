@@ -12,10 +12,13 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./render": "./src/renderApp.tsx",
+        "./PodcastSection":
+          "./src/components/PodcastSection/PodcastSection.tsx",
       },
       shared: dependencies,
     }),
   ],
+  base: "http://localhost:3001/",
   server: {
     port: 3001,
   },
