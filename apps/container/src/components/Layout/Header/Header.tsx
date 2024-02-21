@@ -19,13 +19,13 @@ function Header() {
           Create Post
         </Link>
 
-        <Link to={"/users/123"} className="app-header__avatar">
+        <div className="app-header__avatar">
           <img
             src="https://i.pravatar.cc/40"
             className="app-header__avatar-image"
             alt="user Avatar Image"
           />
-        </Link>
+        </div>
       </div>
     </header>
   );
